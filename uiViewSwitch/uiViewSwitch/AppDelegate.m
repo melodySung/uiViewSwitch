@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "MDContactViewController.h"
+#import "MDWebChatViewController.h"
+#import "MDTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    MDContactViewController *contactViewController = [[MDContactViewController alloc]init];
+    MDWebChatViewController *webChatController =[[MDWebChatViewController alloc]init];
+    MDTabBarController *controller = [[MDTabBarController alloc]init];
+    _window.rootViewController = controller;
+    controller.viewControllers = @[contactViewController,webChatController];
+    for (UIViewController *viewController in  controller.viewControllers) {
+        UIView * view = viewController.view;
+    }
+    [_window makeKeyAndVisible];
     return YES;
 }
 

@@ -15,8 +15,11 @@
 		10BFB1491C05B98B00FD90B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10BFB1471C05B98B00FD90B2 /* LaunchScreen.storyboard */; };
 		10BFB1541C05B98B00FD90B2 /* uiViewSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BFB1531C05B98B00FD90B2 /* uiViewSwitchTests.m */; };
 		10BFB15F1C05B98B00FD90B2 /* uiViewSwitchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BFB15E1C05B98B00FD90B2 /* uiViewSwitchUITests.m */; };
-		10BFB16E1C05BA2F00FD90B2 /* icon-sets-01 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10BFB16C1C05BA2F00FD90B2 /* icon-sets-01 2.jpg */; };
-		10BFB16F1C05BA2F00FD90B2 /* icon-sets-01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10BFB16D1C05BA2F00FD90B2 /* icon-sets-01.jpg */; };
+		10BFB16E1C05BA2F00FD90B2 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 10BFB16C1C05BA2F00FD90B2 /* 2.png */; };
+		10BFB16F1C05BA2F00FD90B2 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 10BFB16D1C05BA2F00FD90B2 /* 1.png */; };
+		10BFB1721C05BB7400FD90B2 /* MDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BFB1711C05BB7400FD90B2 /* MDTabBarController.m */; };
+		10BFB1751C05BCFE00FD90B2 /* MDWebChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BFB1741C05BCFE00FD90B2 /* MDWebChatViewController.m */; };
+		10BFB1781C05BD8800FD90B2 /* MDContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BFB1771C05BD8800FD90B2 /* MDContactViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +56,14 @@
 		10BFB15A1C05B98B00FD90B2 /* uiViewSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uiViewSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10BFB15E1C05B98B00FD90B2 /* uiViewSwitchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uiViewSwitchUITests.m; sourceTree = "<group>"; };
 		10BFB1601C05B98B00FD90B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10BFB16C1C05BA2F00FD90B2 /* icon-sets-01 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "icon-sets-01 2.jpg"; sourceTree = "<group>"; };
-		10BFB16D1C05BA2F00FD90B2 /* icon-sets-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "icon-sets-01.jpg"; sourceTree = "<group>"; };
+		10BFB16C1C05BA2F00FD90B2 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		10BFB16D1C05BA2F00FD90B2 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		10BFB1701C05BB7400FD90B2 /* MDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDTabBarController.h; sourceTree = "<group>"; };
+		10BFB1711C05BB7400FD90B2 /* MDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDTabBarController.m; sourceTree = "<group>"; };
+		10BFB1731C05BCFE00FD90B2 /* MDWebChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDWebChatViewController.h; sourceTree = "<group>"; };
+		10BFB1741C05BCFE00FD90B2 /* MDWebChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDWebChatViewController.m; sourceTree = "<group>"; };
+		10BFB1761C05BD8800FD90B2 /* MDContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDContactViewController.h; sourceTree = "<group>"; };
+		10BFB1771C05BD8800FD90B2 /* MDContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDContactViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +118,12 @@
 				10BFB13D1C05B98B00FD90B2 /* AppDelegate.m */,
 				10BFB13F1C05B98B00FD90B2 /* ViewController.h */,
 				10BFB1401C05B98B00FD90B2 /* ViewController.m */,
+				10BFB1701C05BB7400FD90B2 /* MDTabBarController.h */,
+				10BFB1711C05BB7400FD90B2 /* MDTabBarController.m */,
+				10BFB1731C05BCFE00FD90B2 /* MDWebChatViewController.h */,
+				10BFB1741C05BCFE00FD90B2 /* MDWebChatViewController.m */,
+				10BFB1761C05BD8800FD90B2 /* MDContactViewController.h */,
+				10BFB1771C05BD8800FD90B2 /* MDContactViewController.m */,
 				10BFB1421C05B98B00FD90B2 /* Main.storyboard */,
 				10BFB1451C05B98B00FD90B2 /* Assets.xcassets */,
 				10BFB1471C05B98B00FD90B2 /* LaunchScreen.storyboard */,
@@ -121,8 +136,8 @@
 		10BFB1391C05B98B00FD90B2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				10BFB16C1C05BA2F00FD90B2 /* icon-sets-01 2.jpg */,
-				10BFB16D1C05BA2F00FD90B2 /* icon-sets-01.jpg */,
+				10BFB16C1C05BA2F00FD90B2 /* 2.png */,
+				10BFB16D1C05BA2F00FD90B2 /* 1.png */,
 				10BFB13A1C05B98B00FD90B2 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -251,8 +266,8 @@
 			files = (
 				10BFB1491C05B98B00FD90B2 /* LaunchScreen.storyboard in Resources */,
 				10BFB1461C05B98B00FD90B2 /* Assets.xcassets in Resources */,
-				10BFB16E1C05BA2F00FD90B2 /* icon-sets-01 2.jpg in Resources */,
-				10BFB16F1C05BA2F00FD90B2 /* icon-sets-01.jpg in Resources */,
+				10BFB16E1C05BA2F00FD90B2 /* 2.png in Resources */,
+				10BFB16F1C05BA2F00FD90B2 /* 1.png in Resources */,
 				10BFB1441C05B98B00FD90B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,8 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10BFB1721C05BB7400FD90B2 /* MDTabBarController.m in Sources */,
 				10BFB1411C05B98B00FD90B2 /* ViewController.m in Sources */,
 				10BFB13E1C05B98B00FD90B2 /* AppDelegate.m in Sources */,
+				10BFB1751C05BCFE00FD90B2 /* MDWebChatViewController.m in Sources */,
+				10BFB1781C05BD8800FD90B2 /* MDContactViewController.m in Sources */,
 				10BFB13B1C05B98B00FD90B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
